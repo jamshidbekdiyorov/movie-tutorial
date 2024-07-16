@@ -8,9 +8,9 @@ import MoviesAddForm from '../movies-add-form/movies-add-form';
 
 function App(props) {
     const data = [
-        {name: 'Empire of Osman', viewers:988, favourite: 'false'},
-        {name: 'Ertugrul', viewers:789, favourite: 'false'},
-        {name: 'Omar', viewers:1099, favourite: 'true'},
+        {name: 'Empire of Osman', viewers:988, favourite: false},
+        {name: 'Ertugrul', viewers:789, favourite: false},
+        {name: 'Omar', viewers:1099, favourite: true},
     ]
     return (
         <div className='app font-monospace'>
